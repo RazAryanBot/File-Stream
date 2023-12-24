@@ -6,9 +6,9 @@ from dotenv import load_dotenv
 
 
 load_dotenv()
-bot_name = "Bɪɪsᴀʟ Fɪʟᴇ2Lɪɴᴋ Bᴏᴛ"
-bisal_channel = "https://telegram.me/bisal_files"
-bisal_grp = "https://t.me/+PA8OPL2Zglk3MDM1"
+bot_name = "Fɪʟᴇ ᴛᴏ Lɪɴᴋ Bᴏᴛ"
+bisal_channel = "https://telegram.me/LazyHUB"
+bisal_grp = "https://t.me/+7joy3I3RJt02YmY9"
 
 class Var(object):
     MULTI_CLIENT = False
@@ -40,7 +40,7 @@ class Var(object):
     else:
         URL = "http://{}/".format(FQDN)
     DATABASE_URL = str(getenv('DATABASE_URL', 'mongodb+srv://kunalsingh150899:kunal@cluster0.aaqgojn.mongodb.net/?retryWrites=true&w=majority'))
-    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'updchn')) 
+    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'LazyHUB')) 
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "")).split()))   
     BAN_CHNL = list(set(int(x) for x in str(getenv("BAN_CHNL", "")).split()))   
     
