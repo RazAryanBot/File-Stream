@@ -22,7 +22,7 @@ I ᴀᴍ ᴀ Fɪʟᴇ ᴛᴏ Lɪɴᴋ Gᴇɴᴇʀᴀᴛᴏʀ Bᴏᴛ ᴡɪᴛʜ 
 
 Sᴇɴᴅ ᴍᴇ ᴀɴʏ ғɪʟᴇ ᴀɴᴅ ɢᴇᴛ ᴀ ᴅɪʀᴇᴄᴛ ᴅᴏᴡɴʟᴏᴀᴅ ᴀɴᴅ sᴛʀᴇᴀᴍᴀʙʟᴇ ʟɪɴᴋ.
 
-Mᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/LazyHUB'>𐏓꯭꯭Ⱡᴀ̄͞ᴢ̄͞ʏ̄͞ 🄷🅄🄱</a></b>"""
+Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ : <a href='https://t.me/LazyHUB'>🧑🏻‍💻𐏓꯭꯭Ⱡᴀ̄͞ᴢ̄͞ʏ̄͞ 🄷🅄🄱</a></b>"""
 
 @StreamBot.on_message(filters.command("start") & filters.private )
 async def start(b, m):
@@ -182,7 +182,7 @@ async def cb_handler(client, query):
     
     elif data == "about":
         await query.message.edit_caption(
-            caption=f"<b>Mʏ ɴᴀᴍᴇ :<a href='https://t.me/FileTo_LinksBot'>{bot_name}</a>\nAᴅᴍɪɴ : <a href='https://t.me/LazyPrince_Bot'>𐏓꯭꯭Ⱡᴀ̄͞ᴢ̄͞ʏ̄͞ P̸̲͟ʀ̲̄͟͞ɪ̲̄͟͞ɴ̲̄͟͞ᴄ̲̄͟͞ᴇ̲̄͟͞𐏓⚔</a>\nHᴏsᴛᴇᴅ ᴏɴ : Pʀɪᴠᴀᴛᴇ ꜱᴇʀᴠᴇʀ\nDᴀᴛᴀʙᴀsᴇ : Mᴏɴɢᴏ ᴅʙ\nLᴀɴɢᴜᴀɢᴇ : Pʏᴛʜᴏɴ 3</b>",
+            caption=f"<b>Mʏ Nᴀᴍᴇ :<a href='https://t.me/FileTo_LinksBot'>{bot_name}</a>\nAᴅᴍɪɴ : <a href='https://t.me/LazyPrince_Bot'>𐏓꯭꯭Ⱡᴀ̄͞ᴢ̄͞ʏ̄͞ P̸̲͟ʀ̲̄͟͞ɪ̲̄͟͞ɴ̲̄͟͞ᴄ̲̄͟͞ᴇ̲̄͟͞𐏓⚔</a>\nHᴏsᴛᴇᴅ ᴏɴ : Pʀɪᴠᴀᴛᴇ Sᴇʀᴠᴇʀ\nDᴀᴛᴀʙᴀsᴇ : Mᴏɴɢᴏ DB\nLᴀɴɢᴜᴀɢᴇ : Pʏᴛʜᴏɴ 3</b>",
             reply_markup=InlineKeyboardMarkup(
                 [[ 
                      InlineKeyboardButton("🏠 Hᴏᴍᴇ", callback_data="start"),
@@ -192,7 +192,7 @@ async def cb_handler(client, query):
         )
     elif data == "help":
         await query.message.edit_caption(
-        caption=f"<b>ᴡᴇ ᴅᴏɴᴛ ɴᴇᴇᴅ ᴍᴀɴʏ <a href='https://t.me/LazyHUB'>ᴄᴏᴍᴍᴀɴᴅs</a> ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ 🤩.\n\nᴊᴜsᴛ sᴇɴᴅ ᴍᴇ <a href='https://t.me/LazyHUB'>ᴠɪᴅᴇᴏ ғɪʟᴇs</a> ᴀɴᴅ ɪ ᴡɪʟʟ ɢɪᴠᴇ ʏᴏᴜ <a href='https://t.me/LazyHUB'>ᴅɪʀᴇᴄᴛ ᴅᴏᴡɴʟᴏᴀᴅ & sᴛʀᴇᴀᴍᴀʙʟᴇ</a> ʟɪɴᴋ.\n\nᴏʀ ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴇ ɪɴ <a href='https://t.me/LazyHUB'>ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ</a>. ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ ᴀɴᴅ sᴇᴇ ᴍʏ ᴍᴀɢɪᴄ 😎</b>",
+        caption=f"<b>ᴡᴇ ᴅᴏɴᴛ ɴᴇᴇᴅ ᴍᴀɴʏ <a href='https://t.me/LazyHUB'>ᴄᴏᴍᴍᴀɴᴅs</a> ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ 🤩.\n\nᴊᴜsᴛ sᴇɴᴅ ᴍᴇ <a href='https://t.me/LazyHUB'>ᴠɪᴅᴇᴏ ғɪʟᴇs</a> ᴀɴᴅ ɪ ᴡɪʟʟ ɢɪᴠᴇ ʏᴏᴜ <a href='https://t.me/LazyHUB'>ᴅɪʀᴇᴄᴛ ᴅᴏᴡɴʟᴏᴀᴅ & sᴛʀᴇᴀᴍᴀʙʟᴇ</a> ʟɪɴᴋ.\n\nᴏʀ ʏᴏᴜ ᴄᴀɴ ᴀʟꜱᴏ ᴜsᴇ ᴍᴇ ɪɴ <a href='https://t.me/LazyHUB'>ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ</a> ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ ᴀɴᴅ sᴇᴇ ᴍʏ ᴍᴀɢɪᴄ. 😎</b>",
             reply_markup=InlineKeyboardMarkup(
 [[ 
                      InlineKeyboardButton("🏠 Hᴏᴍᴇ", callback_data="start"),
@@ -202,7 +202,7 @@ async def cb_handler(client, query):
     elif data == "aboutDev":
         # please don't steal credit
         await query.message.edit_caption(
-            caption=f"<b>ʜᴇʏ ᴅᴇᴀʀ...\nɪᴍ <a href='https://t.me/LazyPrince_Bot'>𐏓꯭꯭Ⱡᴀ̄͞ᴢ̄͞ʏ̄͞ P̸̲͟ʀ̲̄͟͞ɪ̲̄͟͞ɴ̲̄͟͞ᴄ̲̄͟͞ᴇ̲̄͟͞𐏓⚔</a>\nɪ ᴀᴍ ᴛʜᴇ ᴀᴅᴍɪɴ ᴏғ ᴛʜɪs ʙᴏᴛ..ᴀɴᴅ ɪ ᴍᴀᴅᴇ ᴛʜᴇ ʙᴏᴛ ʙʏ ʜᴇʟᴘ ᴏғ <a href='https://github.com/'>ᴀᴅᴀʀsʜ</a> ʙʀᴏ..\n\nʙᴏᴛ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href='https://t.me/LazyPrince_Bot'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>",
+            caption=f"<b>Hᴇʏ ᴅᴇᴀʀ... ɪᴍ <a href='https://t.me/LazyPrince_Bot'>𐏓꯭꯭Ⱡᴀ̄͞ᴢ̄͞ʏ̄͞ P̸̲͟ʀ̲̄͟͞ɪ̲̄͟͞ɴ̲̄͟͞ᴄ̲̄͟͞ᴇ̲̄͟͞𐏓⚔</a>\n\nɪ ᴀᴍ ᴛʜᴇ ᴀᴅᴍɪɴ ᴏғ ᴛʜɪs ʙᴏᴛ..ᴀɴᴅ ɪ ᴍᴀᴅᴇ ᴛʜᴇ ʙᴏᴛ ʙʏ ʜᴇʟᴘ ᴏғ <a href='https://github.com/'>ᴀᴅᴀʀsʜ</a>\n\nʙᴏᴛ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href='https://t.me/LazyPrince_Bot'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>",
             reply_markup=InlineKeyboardMarkup(
                 [[ 
                      InlineKeyboardButton("🏠 Hᴏᴍᴇ", callback_data="start"),
