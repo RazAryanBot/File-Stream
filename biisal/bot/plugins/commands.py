@@ -73,7 +73,9 @@ async def start(b, m):
             [InlineKeyboardButton("Dɪsᴄʟᴀɪᴍᴇʀ ⚠️", url=f"https://www.google.com")],
             [
                  InlineKeyboardButton("Uᴘᴅᴀᴛᴇꜱ 🔔", url=bisal_channel),
-                 InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 🆘", url=bisal_grp)],
+                 InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 🆘", url=bisal_grp)
+            ],
+            
             [
                  InlineKeyboardButton("Aʙᴏᴜᴛ ♻️", callback_data="about"),
                  InlineKeyboardButton("Hᴇʟᴘ ℹ️", callback_data="help")
