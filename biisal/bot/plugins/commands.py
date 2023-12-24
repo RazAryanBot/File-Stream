@@ -70,7 +70,7 @@ async def start(b, m):
     caption= SRT_TXT.format(m.from_user.mention(style="md")),
     reply_markup=InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton("⚠️ Dɪsᴄʟᴀɪᴍᴇʀ ⚠️", url=f"https://www.google.com")],
+            [InlineKeyboardButton("⚠️ Dɪsᴄʟᴀɪᴍᴇʀ ⚠️", callback_data="dsc")],
             [
                  InlineKeyboardButton("Uᴘᴅᴀᴛᴇꜱ 🔔", url=bisal_channel),
                  InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 🆘", url=bisal_grp)
@@ -164,7 +164,7 @@ async def cb_handler(client, query):
         caption= SRT_TXT.format(query.from_user.mention(style="md")),
         reply_markup=InlineKeyboardMarkup(
                 [
-            [InlineKeyboardButton("⚠️ Dɪsᴄʟᴀɪᴍᴇʀ ⚠️", url=f"https://www.google.com")],
+            [InlineKeyboardButton("⚠️ Dɪsᴄʟᴀɪᴍᴇʀ ⚠️", callback_data="dsc")],
             [
                  InlineKeyboardButton("Uᴘᴅᴀᴛᴇꜱ 🔔", url=bisal_channel),
                  InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 🆘", url=bisal_grp)
@@ -203,6 +203,17 @@ async def cb_handler(client, query):
         # please don't steal credit
         await query.message.edit_caption(
             caption=f"<b>Hᴇʏ ᴅᴇᴀʀ... ɪᴍ <a href='https://t.me/LazyPrince_Bot'>𐏓꯭꯭Ⱡᴀ̄͞ᴢ̄͞ʏ̄͞ P̸̲͟ʀ̲̄͟͞ɪ̲̄͟͞ɴ̲̄͟͞ᴄ̲̄͟͞ᴇ̲̄͟͞𐏓⚔</a>\n\nɪ ᴀᴍ ᴛʜᴇ ᴀᴅᴍɪɴ ᴏғ ᴛʜɪs ʙᴏᴛ..ᴀɴᴅ ɪ ᴍᴀᴅᴇ ᴛʜᴇ ʙᴏᴛ ʙʏ ʜᴇʟᴘ ᴏғ <a href='https://github.com/'>ᴀᴅᴀʀsʜ</a>\n\nʙᴏᴛ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href='https://t.me/LazyPrince_Bot'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>",
+            reply_markup=InlineKeyboardMarkup(
+                [[ 
+                     InlineKeyboardButton("🏠 Hᴏᴍᴇ", callback_data="start"),
+                     InlineKeyboardButton("🔐 Cʟᴏsᴇ", callback_data="close_data")
+                  ]]            )
+        )
+
+    elif data == "dsc":
+        # please don't steal credit
+        await query.message.edit_caption(
+            caption=f"<b>ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴏᴜʀ ᴏɴʟɪɴᴇ ꜱᴛʀᴇᴀᴍɪɴɢ ᴘʟᴀᴛꜰᴏʀᴍ! ᴏᴜʀ ᴡᴇʙꜱɪᴛᴇ ᴀʟʟᴏᴡꜱ ᴜꜱᴇʀꜱ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ꜱᴛʀᴇᴀᴍᴀʙʟᴇ ʟɪɴᴋꜱ ꜰᴏʀ ᴠᴀʀɪᴏᴜꜱ ꜰɪʟᴇꜱ ᴜꜱɪɴɢ ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛꜱ. ᴘʟᴇᴀꜱᴇ ɴᴏᴛᴇ ᴛʜᴀᴛ ᴡᴇ ᴀʀᴇ ɴᴏᴛ ʀᴇꜱᴘᴏɴꜱɪʙʟᴇ ꜰᴏʀ ᴛʜᴇ ᴄᴏɴᴛᴇɴᴛ ꜱʜᴀʀᴇᴅ ᴏʀ ꜱᴛʀᴇᴀᴍᴇᴅ ᴛʜʀᴏᴜɢʜ ᴏᴜʀ ꜱᴇʀᴠɪᴄᴇ. ᴜꜱᴇʀꜱ ᴀʀᴇ ᴇɴᴄᴏᴜʀᴀɢᴇᴅ ᴛᴏ ʀᴇꜱᴘᴇᴄᴛ ᴄᴏᴘʏʀɪɢʜᴛ ʟᴀᴡꜱ ᴀɴᴅ ᴀᴅʜᴇʀᴇ ᴛᴏ ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ ɢᴜɪᴅᴇʟɪɴᴇꜱ. ᴇɴᴊᴏʏ ᴇᴀꜱʏ, ʜᴀꜱꜱʟᴇ-ꜰʀᴇᴇ ꜰɪʟᴇ ꜱᴛʀᴇᴀᴍɪɴɢ.\n\nᴅᴍᴄᴀ ʀᴇᴘᴏʀᴛ : <a href='https://t.me/LazyPrince_Bot'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>",
             reply_markup=InlineKeyboardMarkup(
                 [[ 
                      InlineKeyboardButton("🏠 Hᴏᴍᴇ", callback_data="start"),
