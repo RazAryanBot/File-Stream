@@ -29,7 +29,7 @@ msg_text ="""<u>𝗬𝗼𝘂𝗿 𝗟𝗶𝗻𝗸 𝗚𝗲𝗻𝗲𝗿𝗮𝘁�
 
 🔐 Gᴇᴛ <a href="https://t.me/+MScgVINip140OWZl">Mᴏʀᴇ Fɪʟᴇs</a>
 
-🧑🏻‍💻 Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ : <a href="https://t.me/LazyHUB">𐏓꯭꯭Ⱡᴀ̄͞ᴢ̄͞ʏ̄͞ 🄷🅄🄱</a></b>"""
+🛠 Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ : <a href="https://t.me/LazyHUB">🧑🏻‍💻𐏓꯭꯭Ⱡᴀ̄͞ᴢ̄͞ʏ̄͞ 🄷🅄🄱</a></b>"""
 
 @StreamBot.on_message((filters.private) & (filters.document | filters.video | filters.audio | filters.photo) , group=4)
 async def private_receive_handler(c: Client, m: Message):
