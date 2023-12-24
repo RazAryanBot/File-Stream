@@ -70,20 +70,21 @@ async def start(b, m):
     caption= SRT_TXT.format(m.from_user.mention(style="md")),
     reply_markup=InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton("Dɪsᴄʟᴀɪᴍᴇʀ ⚠️", url=f"https://www.google.com")],
+            [InlineKeyboardButton("⚠️ Dɪsᴄʟᴀɪᴍᴇʀ ⚠️", url=f"https://www.google.com")],
             [
                  InlineKeyboardButton("Uᴘᴅᴀᴛᴇꜱ 🔔", url=bisal_channel),
                  InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 🆘", url=bisal_grp)
             ],
-            
+            [InlineKeyboardButton("🧑🏻‍💻 Dᴇᴠᴇʟᴏᴘᴇʀ 🧑🏻‍💻", callback_data="aboutDev")],
+
             [
                  InlineKeyboardButton("Aʙᴏᴜᴛ ♻️", callback_data="about"),
                  InlineKeyboardButton("Hᴇʟᴘ ℹ️", callback_data="help")
             ]
-            [InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ 🧑🏻‍💻", callback_data="aboutDev")]
         ]
     )
 )
+
 @StreamBot.on_message(filters.command("help") & filters.private )
 async def help_cd(b, m):
     if not await db.is_user_exist(m.from_user.id):
@@ -163,16 +164,17 @@ async def cb_handler(client, query):
         caption= SRT_TXT.format(query.from_user.mention(style="md")),
         reply_markup=InlineKeyboardMarkup(
                 [
-            [InlineKeyboardButton("Dɪsᴄʟᴀɪᴍᴇʀ ⚠️", url=f"https://www.google.com")],
+            [InlineKeyboardButton("⚠️ Dɪsᴄʟᴀɪᴍᴇʀ ⚠️", url=f"https://www.google.com")],
             [
                  InlineKeyboardButton("Uᴘᴅᴀᴛᴇꜱ 🔔", url=bisal_channel),
                  InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 🆘", url=bisal_grp)
             ],
+            [InlineKeyboardButton("🧑🏻‍💻 Dᴇᴠᴇʟᴏᴘᴇʀ 🧑🏻‍💻", callback_data="aboutDev")],
+
             [
                  InlineKeyboardButton("Aʙᴏᴜᴛ ♻️", callback_data="about"),
                  InlineKeyboardButton("Hᴇʟᴘ ℹ️", callback_data="help")
             ]
-            [InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ 🧑🏻‍💻", callback_data="aboutDev")]
         ]
             )
         )
