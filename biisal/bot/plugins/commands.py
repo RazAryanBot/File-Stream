@@ -70,17 +70,16 @@ async def start(b, m):
     caption= SRT_TXT.format(m.from_user.mention(style="md")),
     reply_markup=InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🤡", url=bisal_channel)],
+            [InlineKeyboardButton("Dɪsᴄʟᴀɪᴍᴇʀ ⚠️", url=f"https://www.google.com")],
             [
-                 InlineKeyboardButton("ᴀʙᴏᴜᴛ 😎", callback_data="about"),
-                 InlineKeyboardButton("ʜᴇʟᴘ 😅", callback_data="help")
+                 InlineKeyboardButton("Uᴘᴅᴀᴛᴇꜱ 🔔", url=bisal_channel),
+                 InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 🆘", url=bisal_grp)
             ],
-            [InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 🚩", url=bisal_grp)],
-
             [
-                 InlineKeyboardButton("ᴅɪsᴄʟᴀɪᴍᴇʀ 🔻", url=f"https://www.google.com"),
-                 InlineKeyboardButton("ᴅᴇᴠ 😊", callback_data="aboutDev")
+                 InlineKeyboardButton("Aʙᴏᴜᴛ ♻️", callback_data="about"),
+                 InlineKeyboardButton("Hᴇʟᴘ ℹ️", callback_data="help")
             ]
+            [InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ 🧑🏻‍💻", callback_data="aboutDev")]
         ]
     )
 )
@@ -163,16 +162,16 @@ async def cb_handler(client, query):
         caption= SRT_TXT.format(query.from_user.mention(style="md")),
         reply_markup=InlineKeyboardMarkup(
                 [
-            [InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🤡", url=bisal_channel)],
+            [InlineKeyboardButton("Dɪsᴄʟᴀɪᴍᴇʀ ⚠️", url=f"https://www.google.com")],
             [
-                 InlineKeyboardButton("ᴀʙᴏᴜᴛ 😎", callback_data="about"),
-                 InlineKeyboardButton("ʜᴇʟᴘ 😅", callback_data="help")
+                 InlineKeyboardButton("Uᴘᴅᴀᴛᴇꜱ 🔔", url=bisal_channel),
+                 InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ 🆘", url=bisal_grp)
             ],
-            [InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 🚩", url=bisal_grp)],
-
             [
-                 InlineKeyboardButton("ᴅɪsᴄʟᴀɪᴍᴇʀ 🔻", url=f"https://telegra.ph/Disclaimer-11-07-37"),
-                 InlineKeyboardButton("ᴅᴇᴠ 😊", callback_data="aboutDev")
+                 InlineKeyboardButton("Aʙᴏᴜᴛ ♻️", callback_data="about"),
+                 InlineKeyboardButton("Hᴇʟᴘ ℹ️", callback_data="help")
+            ]
+            [InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ 🧑🏻‍💻", callback_data="aboutDev")]
             ]
         ]
             )
@@ -184,8 +183,8 @@ async def cb_handler(client, query):
             caption=f"<b>Mʏ ɴᴀᴍᴇ :<a href='https://t.me/FileTo_LinksBot'>{bot_name}</a>\nAᴅᴍɪɴ : <a href='https://t.me/LazyPrince_Bot'>𐏓꯭꯭Ⱡᴀ̄͞ᴢ̄͞ʏ̄͞ P̸̲͟ʀ̲̄͟͞ɪ̲̄͟͞ɴ̲̄͟͞ᴄ̲̄͟͞ᴇ̲̄͟͞𐏓⚔</a>\nHᴏsᴛᴇᴅ ᴏɴ : Pʀɪᴠᴀᴛᴇ ꜱᴇʀᴠᴇʀ\nDᴀᴛᴀʙᴀsᴇ : Mᴏɴɢᴏ ᴅʙ\nLᴀɴɢᴜᴀɢᴇ : Pʏᴛʜᴏɴ 3</b>",
             reply_markup=InlineKeyboardMarkup(
                 [[ 
-                     InlineKeyboardButton("ʜᴏᴍᴇ", callback_data="start"),
-                     InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data="close_data")
+                     InlineKeyboardButton("🏠 Hᴏᴍᴇ", callback_data="start"),
+                     InlineKeyboardButton("🔐 Cʟᴏsᴇ", callback_data="close_data")
                   ]]
             )
         )
@@ -194,8 +193,8 @@ async def cb_handler(client, query):
         caption=f"<b>ᴡᴇ ᴅᴏɴᴛ ɴᴇᴇᴅ ᴍᴀɴʏ <a href='https://t.me/LazyHUB'>ᴄᴏᴍᴍᴀɴᴅs</a> ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ 🤩.\n\nᴊᴜsᴛ sᴇɴᴅ ᴍᴇ <a href='https://t.me/LazyHUB'>ᴠɪᴅᴇᴏ ғɪʟᴇs</a> ᴀɴᴅ ɪ ᴡɪʟʟ ɢɪᴠᴇ ʏᴏᴜ <a href='https://t.me/LazyHUB'>ᴅɪʀᴇᴄᴛ ᴅᴏᴡɴʟᴏᴀᴅ & sᴛʀᴇᴀᴍᴀʙʟᴇ</a> ʟɪɴᴋ.\n\nᴏʀ ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴇ ɪɴ <a href='https://t.me/LazyHUB'>ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ</a>. ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ ᴀɴᴅ sᴇᴇ ᴍʏ ᴍᴀɢɪᴄ 😎</b>",
             reply_markup=InlineKeyboardMarkup(
 [[ 
-                     InlineKeyboardButton("ʜᴏᴍᴇ", callback_data="start"),
-                     InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data="close_data")
+                     InlineKeyboardButton("🏠 Hᴏᴍᴇ", callback_data="start"),
+                     InlineKeyboardButton("🔐 Cʟᴏsᴇ", callback_data="close_data")
                   ]]            )
         )
     elif data == "aboutDev":
@@ -204,7 +203,7 @@ async def cb_handler(client, query):
             caption=f"<b>ʜᴇʏ ᴅᴇᴀʀ...\nɪᴍ <a href='https://t.me/LazyPrince_Bot'>𐏓꯭꯭Ⱡᴀ̄͞ᴢ̄͞ʏ̄͞ P̸̲͟ʀ̲̄͟͞ɪ̲̄͟͞ɴ̲̄͟͞ᴄ̲̄͟͞ᴇ̲̄͟͞𐏓⚔</a>\nɪ ᴀᴍ ᴛʜᴇ ᴀᴅᴍɪɴ ᴏғ ᴛʜɪs ʙᴏᴛ..ᴀɴᴅ ɪ ᴍᴀᴅᴇ ᴛʜᴇ ʙᴏᴛ ʙʏ ʜᴇʟᴘ ᴏғ <a href='https://github.com/'>ᴀᴅᴀʀsʜ</a> ʙʀᴏ..\n\nʙᴏᴛ ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href='https://t.me/LazyPrince_Bot'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>",
             reply_markup=InlineKeyboardMarkup(
                 [[ 
-                     InlineKeyboardButton("ʜᴏᴍᴇ", callback_data="start"),
-                     InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data="close_data")
+                     InlineKeyboardButton("🏠 Hᴏᴍᴇ", callback_data="start"),
+                     InlineKeyboardButton("🔐 Cʟᴏsᴇ", callback_data="close_data")
                   ]]            )
         )
