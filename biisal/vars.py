@@ -40,7 +40,7 @@ class Var(object):
     else:
         URL = "http://{}/".format(FQDN)
     DATABASE_URL = str(getenv('DATABASE_URL', 'mongodb+srv://shubh:shubh@cluster0.muvu5kq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'))
-    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'LazyHUB')) 
+    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'updchn')) 
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "")).split()))   
     BAN_CHNL = list(set(int(x) for x in str(getenv("BAN_CHNL", "")).split()))   
     BAN_ALERT = str(getenv('BAN_ALERT' , '<b>ʏᴏᴜʀ ᴀʀᴇ ʙᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ.Pʟᴇᴀsᴇ ᴄᴏɴᴛᴀᴄᴛ @LazyPrince_Bot ᴛᴏ ʀᴇsᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇ!!</b>'))
